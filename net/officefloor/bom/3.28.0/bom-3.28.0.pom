@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.officefloor</groupId>
@@ -45,68 +45,68 @@
     <url>https://github.com/officefloor/OfficeFloor/issues</url>
   </issueManagement>
   <properties>
+    <cglib-version>3.3.0</cglib-version>
+    <ant-version>1.10.9</ant-version>
+    <junit-vintage-version>4.13.1</junit-vintage-version>
+    <objectify-version>6.0.7</objectify-version>
+    <dokka-maven-version>1.4.10</dokka-maven-version>
+    <eclipse-persistence-version>2.2.1</eclipse-persistence-version>
+    <objenesis-version>3.1</objenesis-version>
+    <javax-transaction-version>1.3</javax-transaction-version>
+    <cdi-version>1.0.1</cdi-version>
+    <lombok-version>1.18.16</lombok-version>
     <wagon-ssh-version>3.3.4</wagon-ssh-version>
     <jackson-version>2.11.3</jackson-version>
-    <eclipse-persistence-version>2.2.1</eclipse-persistence-version>
+    <scalatest-version>3.3.0-SNAP2</scalatest-version>
+    <httpclient-version>4.5.13</httpclient-version>
+    <netty-version>4.1.52.Final</netty-version>
+    <scala-series>2.13</scala-series>
+    <ant-jsch-version>1.10.9</ant-jsch-version>
+    <deploy-version>2.8.2</deploy-version>
+    <hikari-version>3.4.5</hikari-version>
+    <tika-version>1.24.1</tika-version>
     <paypal-version>1.0.2</paypal-version>
-    <datanucleus-version>5.2.5</datanucleus-version>
-    <slf4j-version>1.7.30</slf4j-version>
-    <commons-codec-version>1.15</commons-codec-version>
-    <objenesis-version>3.1</objenesis-version>
+    <docker-java-version>3.2.5</docker-java-version>
+    <concurrent-api-version>1.1.2</concurrent-api-version>
+    <commons-text-version>1.9</commons-text-version>
+    <reactor-version>Dysprosium-SR12</reactor-version>
+    <hsqldb-version>2.5.1</hsqldb-version>
     <servlet-version>4.0.1</servlet-version>
+    <h2database-version>1.4.200</h2database-version>
+    <r2dbc-version>Arabba-SR8</r2dbc-version>
+    <scala-version>2.13.3</scala-version>
+    <maven-site-version>3.7.1</maven-site-version>
+    <scalacheck-version>1.14.3</scalacheck-version>
+    <gpg-version>1.6</gpg-version>
+    <swagger-version>2.1.5</swagger-version>
+    <jaxb-version>2.3.0</jaxb-version>
     <hibernate-version>5.4.22.Final</hibernate-version>
     <scala-maven-version>4.3.1</scala-maven-version>
-    <javadoc-version>3.0.1</javadoc-version>
-    <scalatest-maven-version>2.0.0</scalatest-maven-version>
-    <hsqldb-version>2.5.1</hsqldb-version>
-    <affinity-version>3.20.0</affinity-version>
-    <ant-version>1.10.9</ant-version>
-    <jaxb-version>2.3.0</jaxb-version>
-    <commons-text-version>1.9</commons-text-version>
-    <scalacheck-version>1.14.3</scalacheck-version>
     <google-appengine-version>1.9.82</google-appengine-version>
-    <junit-vintage-version>4.13.1</junit-vintage-version>
-    <google-api-version>1.30.11</google-api-version>
-    <maven-site-version>3.7.1</maven-site-version>
-    <swagger-version>2.1.5</swagger-version>
-    <antrun-version>3.0.0</antrun-version>
-    <scala-series>2.13</scala-series>
-    <javax-activation-version>1.2.0</javax-activation-version>
-    <spring-version>2.3.4.RELEASE</spring-version>
-    <graalvm-js-version>20.2.0</graalvm-js-version>
-    <zio-version>1.0.3</zio-version>
-    <kotlin-version>1.4.10</kotlin-version>
-    <ant-jsch-version>1.10.9</ant-jsch-version>
-    <cdi-version>1.0.1</cdi-version>
-    <gpg-version>1.6</gpg-version>
-    <hikari-version>3.4.5</hikari-version>
-    <concurrent-api-version>1.1.2</concurrent-api-version>
-    <flatten-maven-version>1.1.0</flatten-maven-version>
-    <junit-version>5.7.0</junit-version>
-    <objectify-version>6.0.7</objectify-version>
-    <reactor-version>Dysprosium-SR12</reactor-version>
-    <revision>3.28.0</revision>
-    <deploy-version>2.8.2</deploy-version>
-    <lombok-version>1.18.16</lombok-version>
-    <h2database-version>1.4.200</h2database-version>
-    <swagger-ui-version>3.35.2</swagger-ui-version>
-    <scalatest-version>3.3.0-SNAP2</scalatest-version>
-    <undertow-version>2.2.2.Final</undertow-version>
-    <netty-version>4.1.52.Final</netty-version>
-    <eclipse-persistence-jpa-version>2.7.7</eclipse-persistence-jpa-version>
-    <dokka-maven-version>1.4.10</dokka-maven-version>
-    <maven-source-version>3.0.1</maven-source-version>
-    <httpclient-version>4.5.13</httpclient-version>
-    <r2dbc-version>Arabba-SR8</r2dbc-version>
-    <cglib-version>3.3.0</cglib-version>
-    <tika-version>1.24.1</tika-version>
-    <jsonwebtoken-version>0.11.2</jsonwebtoken-version>
-    <javax-transaction-version>1.3</javax-transaction-version>
-    <docker-java-version>3.2.5</docker-java-version>
-    <cats-effect-version>2.1.4</cats-effect-version>
-    <doobie-version>0.9.2</doobie-version>
+    <commons-codec-version>1.15</commons-codec-version>
     <postgresql-version>42.2.18</postgresql-version>
-    <scala-version>2.13.3</scala-version>
+    <kotlin-version>1.4.10</kotlin-version>
+    <doobie-version>0.9.2</doobie-version>
+    <jsonwebtoken-version>0.11.2</jsonwebtoken-version>
+    <eclipse-persistence-jpa-version>2.7.7</eclipse-persistence-jpa-version>
+    <undertow-version>2.2.2.Final</undertow-version>
+    <cats-effect-version>2.1.4</cats-effect-version>
+    <antrun-version>3.0.0</antrun-version>
+    <slf4j-version>1.7.30</slf4j-version>
+    <affinity-version>3.20.0</affinity-version>
+    <zio-version>1.0.3</zio-version>
+    <graalvm-js-version>20.2.0</graalvm-js-version>
+    <scalatest-maven-version>2.0.0</scalatest-maven-version>
+    <spring-version>2.3.4.RELEASE</spring-version>
+    <swagger-ui-version>3.35.2</swagger-ui-version>
+    <datanucleus-version>5.2.5</datanucleus-version>
+    <javadoc-version>3.0.1</javadoc-version>
+    <google-api-version>1.30.11</google-api-version>
+    <maven-source-version>3.0.1</maven-source-version>
+    <javax-activation-version>1.2.0</javax-activation-version>
+    <flatten-maven-version>1.1.0</flatten-maven-version>
+    <revision>3.28.0</revision>
+    <junit-version>5.7.0</junit-version>
   </properties>
   <dependencyManagement>
     <dependencies>
