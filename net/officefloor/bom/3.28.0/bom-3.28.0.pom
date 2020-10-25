@@ -93,6 +93,7 @@
     <cats-effect-version>2.1.4</cats-effect-version>
     <antrun-version>3.0.0</antrun-version>
     <slf4j-version>1.7.30</slf4j-version>
+    <github-site-version>0.12</github-site-version>
     <affinity-version>3.20.0</affinity-version>
     <zio-version>1.0.3</zio-version>
     <graalvm-js-version>20.2.0</graalvm-js-version>
@@ -827,6 +828,11 @@
           <groupId>org.scalatest</groupId>
           <artifactId>scalatest-maven-plugin</artifactId>
           <version>${scalatest-maven-version}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.github</groupId>
+          <artifactId>site-maven-plugin</artifactId>
+          <version>${github-site-version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
