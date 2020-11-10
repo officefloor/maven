@@ -75,7 +75,7 @@
     <r2dbc-version>Arabba-SR8</r2dbc-version>
     <scala-version>2.13.3</scala-version>
     <maven-site-version>3.7.1</maven-site-version>
-    <scalacheck-version>1.15.0</scalacheck-version>
+    <scalacheck-version>1.15.1</scalacheck-version>
     <gpg-version>1.6</gpg-version>
     <swagger-version>2.1.5</swagger-version>
     <hibernate-version>5.4.23.Final</hibernate-version>
@@ -97,7 +97,7 @@
     <graalvm-js-version>20.2.0</graalvm-js-version>
     <scalatest-maven-version>2.0.2</scalatest-maven-version>
     <spring-version>2.3.5.RELEASE</spring-version>
-    <swagger-ui-version>3.36.1</swagger-ui-version>
+    <swagger-ui-version>3.36.2</swagger-ui-version>
     <datanucleus-version>5.2.6</datanucleus-version>
     <javadoc-version>3.0.1</javadoc-version>
     <google-api-version>1.30.11</google-api-version>
