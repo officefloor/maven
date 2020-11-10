@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='org.eclipse.update.feature' id='net.officefloor.feature' version='3.28.1'>
     <properties size='6'>
-      <property name='artifact.size' value='1311'/>
-      <property name='download.size' value='1311'/>
+      <property name='artifact.size' value='1312'/>
+      <property name='download.size' value='1312'/>
       <property name='maven-groupId' value='net.officefloor.eclipse'/>
       <property name='maven-artifactId' value='net.officefloor.feature'/>
       <property name='maven-version' value='3.28.1'/>
