@@ -3,10 +3,10 @@
   <groupId>net.officefloor.scala</groupId>
   <artifactId>scala</artifactId>
   <versioning>
-    <release>3.28.1</release>
+    <release>3.28.2</release>
     <versions>
-      <version>3.28.1</version>
+      <version>3.28.2</version>
     </versions>
-    <lastUpdated>20201110134425</lastUpdated>
+    <lastUpdated>20201113185315</lastUpdated>
   </versioning>
 </metadata>
