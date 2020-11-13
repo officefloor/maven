@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='net.officefloor.gef.activity.tests' version='3.28.2' generation='2'>
+    <update id='net.officefloor.gef.activity.tests' range='[0.0.0,3.28.2)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Test Activity Editor'/>
+      <property name='org.eclipse.equinox.p2.provider' value='OfficeFloor'/>
+      <property name='maven-groupId' value='net.officefloor.editor'/>
+      <property name='maven-artifactId' value='net.officefloor.gef.activity.tests'/>
+      <property name='maven-version' value='3.28.2'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='net.officefloor.gef.activity.tests' version='3.28.2'/>
+      <provided namespace='osgi.bundle' name='net.officefloor.gef.activity.tests' version='3.28.2'/>
+      <provided namespace='osgi.identity' name='net.officefloor.gef.activity.tests' version='3.28.2'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='15'>
+      <required namespace='osgi.bundle' name='net.officefloor.core' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.activity' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.common' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.editor' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.bridge' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.configurer' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.ide' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.ide.tests' range='3.28.2'/>
+      <required namespace='osgi.bundle' name='net.officefloor.gef.activity' range='3.28.2'/>
+      <required namespace='java.package' name='org.eclipse.gef.mvc.fx.domain' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jface.dialogs' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.service.prefs' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='net.officefloor.gef.activity.tests' version='3.28.2'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: net.officefloor.gef.activity.tests;singleton:=true&#xA;Bundle-Version: 3.28.2&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
