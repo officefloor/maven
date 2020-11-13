@@ -3,11 +3,11 @@
   <groupId>net.officefloor.maven</groupId>
   <artifactId>tycho-shade-maven-plugin</artifactId>
   <versioning>
-    <latest>3.28.1</latest>
-    <release>3.28.1</release>
+    <latest>3.28.2</latest>
+    <release>3.28.2</release>
     <versions>
-      <version>3.28.1</version>
+      <version>3.28.2</version>
     </versions>
-    <lastUpdated>20201110141659</lastUpdated>
+    <lastUpdated>20201113192428</lastUpdated>
   </versioning>
 </metadata>
