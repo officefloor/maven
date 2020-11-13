@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.officefloor.core</groupId>
+  <artifactId>core</artifactId>
+  <version>3.28.2</version>
+  <packaging>pom</packaging>
+  <name>Core</name>
+  <description>Core components for OfficeFloor</description>
+  <url>http://officefloor.net/officefloor/core/</url>
+  <licenses>
+    <license>
+      <name>AGPL</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+      <comments>Affero General Public License</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sagenschneider</id>
+      <name>Daniel Sagenschneider</name>
+      <email>daniel@officefloor.net</email>
+      <roles>
+        <role>Founder</role>
+        <role>Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/officefloor/OfficeFloor.git/officefloor/core</connection>
+    <developerConnection>scm:git:git@github.com:officefloor/OfficeFloor.git/officefloor/core</developerConnection>
+    <url>https://github.com/officefloor/OfficeFloor/officefloor/core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.7.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Central first</id>
+      <name>List central first so is used first</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>OfficeFloor-stage-repository</id>
+      <name>Staged artifacts for OfficeFloor</name>
+      <url>https://github.com/officefloor/maven/raw/repository/</url>
+    </repository>
+  </repositories>
+</project>
