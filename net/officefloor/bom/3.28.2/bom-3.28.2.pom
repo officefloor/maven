@@ -73,17 +73,17 @@
     <servlet-version>4.0.1</servlet-version>
     <h2database-version>1.4.200</h2database-version>
     <r2dbc-version>Arabba-SR8</r2dbc-version>
-    <scala-version>2.13.3</scala-version>
+    <scala-version>2.13.4</scala-version>
     <maven-site-version>3.7.1</maven-site-version>
     <scalacheck-version>1.15.1</scalacheck-version>
     <gpg-version>1.6</gpg-version>
     <swagger-version>2.1.5</swagger-version>
-    <hibernate-version>5.4.23.Final</hibernate-version>
+    <hibernate-version>5.4.24.Final</hibernate-version>
     <scala-maven-version>4.3.1</scala-maven-version>
     <google-appengine-version>1.9.83</google-appengine-version>
     <commons-codec-version>1.15</commons-codec-version>
     <postgresql-version>42.2.18</postgresql-version>
-    <kotlin-version>1.4.10</kotlin-version>
+    <kotlin-version>1.4.20</kotlin-version>
     <doobie-version>0.9.2</doobie-version>
     <jsonwebtoken-version>0.11.2</jsonwebtoken-version>
     <eclipse-persistence-jpa-version>2.7.7</eclipse-persistence-jpa-version>
@@ -100,7 +100,7 @@
     <swagger-ui-version>3.36.2</swagger-ui-version>
     <datanucleus-version>5.2.6</datanucleus-version>
     <javadoc-version>3.0.1</javadoc-version>
-    <google-api-version>1.31.0</google-api-version>
+    <google-api-version>1.31.1</google-api-version>
     <maven-source-version>3.0.1</maven-source-version>
     <flatten-maven-version>1.1.0</flatten-maven-version>
     <revision>3.28.2</revision>
@@ -259,6 +259,11 @@
       <dependency>
         <groupId>net.officefloor.server</groupId>
         <artifactId>officeserver_undertow</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.officefloor.server</groupId>
+        <artifactId>officeserver_appengineemulator</artifactId>
         <version>${revision}</version>
       </dependency>
       <dependency>
@@ -488,6 +493,11 @@
       <dependency>
         <groupId>net.officefloor.pay</groupId>
         <artifactId>officepay_paypal</artifactId>
+        <version>${revision}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.officefloor.maven</groupId>
+        <artifactId>officefloor-appengine-maven-plugin</artifactId>
         <version>${revision}</version>
       </dependency>
       <dependency>
@@ -761,6 +771,11 @@
   <build>
     <pluginManagement>
       <plugins>
+        <plugin>
+          <groupId>net.officefloor.maven</groupId>
+          <artifactId>officefloor-appengine-maven-plugin</artifactId>
+          <version>${revision}</version>
+        </plugin>
         <plugin>
           <groupId>net.officefloor.maven</groupId>
           <artifactId>officefloor-maven-plugin</artifactId>
