@@ -3,11 +3,11 @@
   <groupId>net.officefloor.maven</groupId>
   <artifactId>officefloor-maven-plugin</artifactId>
   <versioning>
-    <latest>3.28.2</latest>
-    <release>3.28.2</release>
+    <latest>3.29.0</latest>
+    <release>3.29.0</release>
     <versions>
-      <version>3.28.2</version>
+      <version>3.29.0</version>
     </versions>
-    <lastUpdated>20201122154747</lastUpdated>
+    <lastUpdated>20201205101727</lastUpdated>
   </versioning>
 </metadata>
