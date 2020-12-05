@@ -3,10 +3,10 @@
   <groupId>net.officefloor.editor</groupId>
   <artifactId>net.officefloor.gef.editor.tests</artifactId>
   <versioning>
-    <release>3.28.2</release>
+    <release>3.29.0</release>
     <versions>
-      <version>3.28.2</version>
+      <version>3.29.0</version>
     </versions>
-    <lastUpdated>20201122160931</lastUpdated>
+    <lastUpdated>20201205103618</lastUpdated>
   </versioning>
 </metadata>
