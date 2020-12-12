@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.officefloor.persistence</groupId>
+  <artifactId>officejpa_datanucleus</artifactId>
+  <version>3.30.0</version>
+  <name>DataNucleus JPA Persistence</name>
+  <description>OfficeFloor plug-in for DataNucleus JPA</description>
+  <url>http://officefloor.net/officefloor/persistence/officejpa_datanucleus/</url>
+  <licenses>
+    <license>
+      <name>AGPL</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+      <comments>Affero General Public License</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sagenschneider</id>
+      <name>Daniel Sagenschneider</name>
+      <email>daniel@officefloor.net</email>
+      <roles>
+        <role>Founder</role>
+        <role>Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/officefloor/OfficeFloor.git/officefloor/persistence/officejpa_datanucleus</connection>
+    <developerConnection>scm:git:git@github.com:officefloor/OfficeFloor.git/officefloor/persistence/officejpa_datanucleus</developerConnection>
+    <url>https://github.com/officefloor/OfficeFloor/officefloor/persistence/officejpa_datanucleus</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.officefloor.persistence</groupId>
+      <artifactId>officejpa</artifactId>
+      <version>3.30.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.datanucleus</groupId>
+      <artifactId>datanucleus-accessplatform-jpa-rdbms</artifactId>
+      <version>5.2.6</version>
+      <type>pom</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.16</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.officefloor.core</groupId>
+      <artifactId>officecompiler</artifactId>
+      <version>3.30.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Central first</id>
+      <name>List central first so is used first</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>OfficeFloor-stage-repository</id>
+      <name>Staged artifacts for OfficeFloor</name>
+      <url>https://github.com/officefloor/maven/raw/repository/</url>
+    </repository>
+  </repositories>
+</project>
