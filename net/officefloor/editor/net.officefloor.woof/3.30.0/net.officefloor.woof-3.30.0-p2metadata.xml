@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='net.officefloor.woof' version='3.30.0' singleton='false' generation='2'>
+    <update id='net.officefloor.woof' range='[0.0.0,3.30.0)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='OfficeFloor WoOF for Editor'/>
+      <property name='org.eclipse.equinox.p2.provider' value='OfficeFloor'/>
+      <property name='maven-groupId' value='net.officefloor.editor'/>
+      <property name='maven-artifactId' value='net.officefloor.woof'/>
+      <property name='maven-version' value='3.30.0'/>
+    </properties>
+    <provides size='66'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='net.officefloor.woof' version='3.30.0'/>
+      <provided namespace='osgi.bundle' name='net.officefloor.woof' version='3.30.0'/>
+      <provided namespace='java.package' name='net.officefloor.server' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.buffer' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.filesystem' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.http' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.http.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.http.mock' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.http.parse' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.http.stream' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.ssl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.stream' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.server.stream.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.accept' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.compile' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.escalation' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.mock' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.classpath' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.file' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.resource.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.response' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.route' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.build.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.build.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.scheme' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.store' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.security.type' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.session' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.session.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.session.object' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.session.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.session.store' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.spi.security' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.spi.security.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.state' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template.extension' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template.parse' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.template.type' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.tokenise' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.value.load' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.web.value.retrieve' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.model.objects' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.model.resources' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.model.teams' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.model.woof' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.objects' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.resources' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.teams' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.template' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.woof.template.impl' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='net.officefloor.woof' version='3.30.0'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='net.officefloor.core' range='3.30.0'/>
+      <required namespace='osgi.bundle' name='net.officefloor.activity' range='3.30.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='net.officefloor.woof' version='3.30.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: net.officefloor.woof&#xA;Bundle-Version: 3.30.0&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
