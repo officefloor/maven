@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='net.officefloor.activity' version='3.30.0'>
     <properties size='5'>
-      <property name='artifact.size' value='200695'/>
-      <property name='download.size' value='200695'/>
+      <property name='artifact.size' value='200766'/>
+      <property name='download.size' value='200766'/>
       <property name='maven-groupId' value='net.officefloor.editor'/>
       <property name='maven-artifactId' value='net.officefloor.activity'/>
       <property name='maven-version' value='3.30.0'/>
