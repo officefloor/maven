@@ -58,9 +58,9 @@
     <lombok-version>1.18.16</lombok-version>
     <wagon-ssh-version>3.3.4</wagon-ssh-version>
     <jackson-version>2.12.0</jackson-version>
-    <scalatest-version>3.3.0-SNAP2</scalatest-version>
+    <scalatest-version>3.3.0-SNAP3</scalatest-version>
     <httpclient-version>4.5.13</httpclient-version>
-    <netty-version>4.1.54.Final</netty-version>
+    <netty-version>4.1.55.Final</netty-version>
     <scala-series>2.13</scala-series>
     <ant-jsch-version>1.10.9</ant-jsch-version>
     <deploy-version>2.8.2</deploy-version>
@@ -82,10 +82,10 @@
     <swagger-version>2.1.6</swagger-version>
     <hibernate-version>5.4.25.Final</hibernate-version>
     <scala-maven-version>4.3.1</scala-maven-version>
-    <google-appengine-version>1.9.83</google-appengine-version>
+    <google-appengine-version>1.9.84</google-appengine-version>
     <commons-codec-version>1.15</commons-codec-version>
     <postgresql-version>42.2.18</postgresql-version>
-    <kotlin-version>1.4.20</kotlin-version>
+    <kotlin-version>1.4.21</kotlin-version>
     <doobie-version>0.9.4</doobie-version>
     <jsonwebtoken-version>0.11.2</jsonwebtoken-version>
     <eclipse-persistence-jpa-version>3.0.0</eclipse-persistence-jpa-version>
@@ -99,7 +99,7 @@
     <graalvm-js-version>20.2.0</graalvm-js-version>
     <scalatest-maven-version>2.0.2</scalatest-maven-version>
     <spring-version>2.3.5.RELEASE</spring-version>
-    <swagger-ui-version>3.37.2</swagger-ui-version>
+    <swagger-ui-version>3.38.0</swagger-ui-version>
     <datanucleus-version>5.2.6</datanucleus-version>
     <javadoc-version>3.0.1</javadoc-version>
     <google-api-version>1.31.1</google-api-version>
