@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='net.officefloor.gef.shade' version='3.30.0'>
     <properties size='5'>
-      <property name='artifact.size' value='15749930'/>
-      <property name='download.size' value='15749930'/>
+      <property name='artifact.size' value='15755971'/>
+      <property name='download.size' value='15755971'/>
       <property name='maven-groupId' value='net.officefloor.editor'/>
       <property name='maven-artifactId' value='net.officefloor.gef.shade'/>
       <property name='maven-version' value='3.30.0'/>
