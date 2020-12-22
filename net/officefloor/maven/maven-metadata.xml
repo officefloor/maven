@@ -2,9 +2,9 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>Maven WoOF Plugin</name>
-      <prefix>woof</prefix>
-      <artifactId>woof-maven-plugin</artifactId>
+      <name>Maven OfficeFloor Plugin</name>
+      <prefix>officefloor</prefix>
+      <artifactId>officefloor-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
