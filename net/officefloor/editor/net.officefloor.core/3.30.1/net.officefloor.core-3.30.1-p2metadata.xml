@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='net.officefloor.core' version='3.30.1' singleton='false' generation='2'>
+    <update id='net.officefloor.core' range='[0.0.0,3.30.1)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='OfficeFloor Core'/>
+      <property name='org.eclipse.equinox.p2.provider' value='OfficeFloor'/>
+      <property name='maven-groupId' value='net.officefloor.editor'/>
+      <property name='maven-artifactId' value='net.officefloor.core'/>
+      <property name='maven-version' value='3.30.1'/>
+    </properties>
+    <provides size='217'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='net.officefloor.core' version='3.30.1'/>
+      <provided namespace='osgi.bundle' name='net.officefloor.core' version='3.30.1'/>
+      <provided namespace='java.package' name='net.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.administration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.classes' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.executive' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.adapt' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.administrator' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.classes' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.executive' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.issues' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.mxbean' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.object' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.state.autowire' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.structure' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.supplier' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.impl.util' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.internal.structure' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.issues' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.mbean' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.object' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.administration.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.administration.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.governance.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.governance.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.managedfunction.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.managedfunction.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.mbean' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.office.extension' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.office.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.office.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.officefloor.extension' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.officefloor.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.officefloor.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.pool.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.pool.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.section.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.section.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.supplier.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.spi.supplier.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.state' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.state.autowire' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.supplier' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.administration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.issues' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.managedfunction.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.supplier' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.test.util' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.compile.type' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.configuration.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.configuration.impl.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.administration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.clock' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.escalate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.executive' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.executive.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.executive.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.function' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.manage' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.executor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.extension' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.recycle' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.managedobject.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.profile' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.team.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.team.source.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.api.thread' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.compatibility' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.administration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.asset' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.escalation' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.executive' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.flow' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.function' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.managedobjectpool' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.managedobjectsource' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.source' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.construct.util' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.administration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.asset' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.clock' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.escalation' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.execution' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.executive' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.flow' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.function' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.governance' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.job' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.linkedlistset' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.managedobject' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.process' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.profile' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.service' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.execute.thread' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.impl.spi.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.internal.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.internal.structure' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.test' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.test.match' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.frame.util' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.change' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.conform' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.generate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.generate.model' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.impl.change' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.impl.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.impl.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.impl.repository' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.impl.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.office' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.officefloor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.repository' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.test.changes' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.model.test.variable' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.administration.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.constructor' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.constructor.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.dependency' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.dependency.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.factory' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.flow' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.interrogate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.interrogate.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.method' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.qualifier' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.qualifier.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.clazz.state' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.governance.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.managedfunction.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.managedobject.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.managedobject.poll' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.managedobject.singleton' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.flow' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.flow.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.loader' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.object' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.object.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.parameter' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.parameter.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.spawn' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.clazz.spawn.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.managedfunction' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.section.transform' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.team' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.variable' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.marshall.output' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.marshall.translate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.marshall.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.unmarshall.designate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.unmarshall.flat' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.unmarshall.load' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.unmarshall.translate' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.plugin.xml.unmarshall.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.test' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.test.logger' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.test.skip' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.test.system' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='net.officefloor.core' version='3.30.1'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='net.officefloor.core' version='3.30.1'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: net.officefloor.core&#xA;Bundle-Version: 3.30.1&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
