@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='net.officefloor.activity' version='3.30.1' singleton='false' generation='2'>
+    <update id='net.officefloor.activity' range='[0.0.0,3.30.1)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='OfficeFloor Activity for Editor'/>
+      <property name='org.eclipse.equinox.p2.provider' value='OfficeFloor'/>
+      <property name='maven-groupId' value='net.officefloor.editor'/>
+      <property name='maven-artifactId' value='net.officefloor.activity'/>
+      <property name='maven-version' value='3.30.1'/>
+    </properties>
+    <provides size='11'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='net.officefloor.activity' version='3.30.1'/>
+      <provided namespace='osgi.bundle' name='net.officefloor.activity' version='3.30.1'/>
+      <provided namespace='java.package' name='net.officefloor.activity' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.impl.procedure' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.model' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.procedure' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.procedure.build' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.procedure.section' version='0.0.0'/>
+      <provided namespace='java.package' name='net.officefloor.activity.procedure.spi' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='net.officefloor.activity' version='3.30.1'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='net.officefloor.core' range='3.30.1'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='net.officefloor.activity' version='3.30.1'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: net.officefloor.activity&#xA;Bundle-Version: 3.30.1&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
