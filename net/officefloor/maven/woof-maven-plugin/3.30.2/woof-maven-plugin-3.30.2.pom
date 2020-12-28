@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.officefloor.maven</groupId>
+  <artifactId>woof-maven-plugin</artifactId>
+  <version>3.30.2</version>
+  <packaging>maven-plugin</packaging>
+  <name>Maven WoOF Plugin</name>
+  <description>Maven plug-in to view WoOF configurations</description>
+  <url>http://officefloor.net/officefloor/maven/woof-maven-plugin/</url>
+  <licenses>
+    <license>
+      <name>AGPL</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+      <comments>Affero General Public License</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sagenschneider</id>
+      <name>Daniel Sagenschneider</name>
+      <email>daniel@officefloor.net</email>
+      <roles>
+        <role>Founder</role>
+        <role>Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/officefloor/OfficeFloor.git/officefloor/maven/woof-maven-plugin</connection>
+    <developerConnection>scm:git:git@github.com:officefloor/OfficeFloor.git/officefloor/maven/woof-maven-plugin</developerConnection>
+    <url>https://github.com/officefloor/OfficeFloor/officefloor/maven/woof-maven-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.officefloor.editor</groupId>
+      <artifactId>net.officefloor.gef.shade</artifactId>
+      <version>3.30.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.officefloor.jee</groupId>
+      <artifactId>officeservlet_war</artifactId>
+      <version>3.30.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>
+      <version>11-ea+25</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>11-ea+25</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-swt</artifactId>
+      <version>11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-embedder</artifactId>
+      <version>3.6.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>3.6.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>3.6.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Central first</id>
+      <name>List central first so is used first</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>OfficeFloor-stage-repository</id>
+      <name>Staged artifacts for OfficeFloor</name>
+      <url>https://github.com/officefloor/maven/raw/repository/</url>
+    </repository>
+  </repositories>
+</project>
