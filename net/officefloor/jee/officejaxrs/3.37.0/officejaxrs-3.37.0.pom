@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.officefloor.jee</groupId>
+  <artifactId>officejaxrs</artifactId>
+  <version>3.37.0</version>
+  <name>JAX-RS</name>
+  <description>JAX-RS for OfficeFloor</description>
+  <url>http://officefloor.net/officefloor/jee/officejaxrs/</url>
+  <licenses>
+    <license>
+      <name>AGPL</name>
+      <url>http://www.gnu.org/licenses/agpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+      <comments>Affero General Public License</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sagenschneider</id>
+      <name>Daniel Sagenschneider</name>
+      <email>daniel@officefloor.net</email>
+      <roles>
+        <role>Founder</role>
+        <role>Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/officefloor/OfficeFloor.git/officefloor/jee/officejaxrs</connection>
+    <developerConnection>scm:git:git@github.com:officefloor/OfficeFloor.git/officefloor/jee/officejaxrs</developerConnection>
+    <url>https://github.com/officefloor/OfficeFloor/officefloor/jee/officejaxrs</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.glassfish.jersey.containers</groupId>
+      <artifactId>jersey-container-servlet</artifactId>
+      <version>2.33</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jersey.inject</groupId>
+      <artifactId>jersey-hk2</artifactId>
+      <version>2.33</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jersey.media</groupId>
+      <artifactId>jersey-media-json-binding</artifactId>
+      <version>2.33</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.enterprise.concurrent</groupId>
+      <artifactId>jakarta.enterprise.concurrent-api</artifactId>
+      <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.officefloor.jee</groupId>
+      <artifactId>officeservlet</artifactId>
+      <version>3.37.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.officefloor.core</groupId>
+      <artifactId>officecompiler</artifactId>
+      <version>3.37.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>Central first</id>
+      <name>List central first so is used first</name>
+      <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>OfficeFloor-stage-repository</id>
+      <name>Staged artifacts for OfficeFloor</name>
+      <url>https://github.com/officefloor/maven/raw/repository/</url>
+    </repository>
+  </repositories>
+</project>
