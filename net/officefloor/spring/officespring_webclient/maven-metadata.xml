@@ -3,10 +3,10 @@
   <groupId>net.officefloor.spring</groupId>
   <artifactId>officespring_webclient</artifactId>
   <versioning>
-    <release>3.30.2</release>
+    <release>3.37.0</release>
     <versions>
-      <version>3.30.2</version>
+      <version>3.37.0</version>
     </versions>
-    <lastUpdated>20201228141801</lastUpdated>
+    <lastUpdated>20210620151404</lastUpdated>
   </versioning>
 </metadata>
