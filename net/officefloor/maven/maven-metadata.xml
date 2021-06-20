@@ -2,9 +2,9 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>OfficeFloor AppEngine Maven Plugin</name>
-      <prefix>officefloor-appengine</prefix>
-      <artifactId>officefloor-appengine-maven-plugin</artifactId>
+      <name>OfficeFloor SAM Maven Plugin</name>
+      <prefix>officefloor-sam</prefix>
+      <artifactId>officefloor-sam-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
