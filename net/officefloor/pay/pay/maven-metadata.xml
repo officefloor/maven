@@ -3,10 +3,10 @@
   <groupId>net.officefloor.pay</groupId>
   <artifactId>pay</artifactId>
   <versioning>
-    <release>3.30.2</release>
+    <release>3.37.0</release>
     <versions>
-      <version>3.30.2</version>
+      <version>3.37.0</version>
     </versions>
-    <lastUpdated>20201228141223</lastUpdated>
+    <lastUpdated>20210620150828</lastUpdated>
   </versioning>
 </metadata>
