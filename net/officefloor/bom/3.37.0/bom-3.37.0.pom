@@ -49,7 +49,7 @@
     <jackson-version>2.12.3</jackson-version>
     <paypal-version>1.0.3</paypal-version>
     <datanucleus-version>5.2.8</datanucleus-version>
-    <slf4j-version>1.7.30</slf4j-version>
+    <slf4j-version>1.7.31</slf4j-version>
     <commons-codec-version>1.15</commons-codec-version>
     <objenesis-version>3.2</objenesis-version>
     <servlet-version>4.0.1</servlet-version>
@@ -102,12 +102,12 @@
     <tika-version>1.26</tika-version>
     <jsonwebtoken-version>0.11.2</jsonwebtoken-version>
     <azure-cosmos-version>4.14.0</azure-cosmos-version>
-    <docker-java-version>3.2.8</docker-java-version>
+    <docker-java-version>3.2.10</docker-java-version>
     <cats-effect-version>3.1.1</cats-effect-version>
     <doobie-version>1.0.0-M5</doobie-version>
-    <aws-java-sdk-version>1.11.1018</aws-java-sdk-version>
+    <aws-java-sdk-version>1.12.9</aws-java-sdk-version>
     <appengine-version>2.4.0</appengine-version>
-    <postgresql-version>42.2.20</postgresql-version>
+    <postgresql-version>42.2.22</postgresql-version>
     <scala-version>2.13.6</scala-version>
   </properties>
   <dependencyManagement>
