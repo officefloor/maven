@@ -2,9 +2,9 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>OfficeFloor SAM Maven Plugin</name>
-      <prefix>officefloor-sam</prefix>
-      <artifactId>officefloor-sam-maven-plugin</artifactId>
+      <name>Tycho creation of uber jar</name>
+      <prefix>tycho-shade</prefix>
+      <artifactId>tycho-shade-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
